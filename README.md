@@ -1,7 +1,7 @@
 import requests
 
-GITHUB_USERNAME = "wcnunes"  # Troque pelo seu usuário, se necessário
-GITHUB_TOKEN = "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"  # Gere em https://github.com/settings/tokens
+GITHUB_USERNAME =wcnunes  # Troque pelo seu usuário, se necessário
+GITHUB_TOKEN =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  # Gere em https://github.com/settings/tokens
 
 def get_repos(user):
     url = f"https://api.github.com/users/{user}/repos?per_page=100"
